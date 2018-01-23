@@ -90,12 +90,14 @@
     padding: 5px; }
   .Project .Detail .Description {
     width: 45%;
+    font-size: 24px;
     margin-bottom: 5px; }
     .Project .Detail .Description p {
       padding: 15px; }
     @media (max-width: 750px) {
       .Project .Detail .Description {
-        width: 96%; } }
+        width: 96%;
+        font-size: 22px; } }
   .Project .Detail .DetailImg {
     width: 100%;
     height: auto;
