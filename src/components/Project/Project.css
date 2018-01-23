@@ -1,0 +1,150 @@
+.Project .Thumb {
+  width: 500px;
+  height: auto;
+  margin: 15px 10px;
+  border: 3px solid #cccccc;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px 1px #2d2251; }
+  @media (max-width: 1050px) {
+    .Project .Thumb {
+      width: 400px;
+      margin: 15px 5px; } }
+  @media (max-width: 840px) {
+    .Project .Thumb {
+      width: 350px;
+      margin: 15px 5px; } }
+  @media (max-width: 730px) {
+    .Project .Thumb {
+      width: 90%;
+      margin: 15px auto; } }
+  @media (max-width: 550px) {
+    .Project .Thumb {
+      width: 100%;
+      margin: 15px 0; } }
+  .Project .Thumb:hover {
+    opacity: .9;
+    border: 4px solid #dddddd;
+    box-shadow: -2px -2px 2px 1px #2d2251 inset; }
+.Project .Label {
+  background: #eeeeee;
+  font-size: 18px;
+  padding: 3px 1px;
+  width: 400px;
+  margin: 15px auto 18px auto;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 2px 1px #2d2251; }
+  @media (max-width: 841px) {
+    .Project .Label {
+      width: 90%; } }
+  @media (max-width: 550px) {
+    .Project .Label {
+      width: 100%;
+      margin: 0; } }
+.Project .Detail {
+  z-index: 9;
+  position: fixed;
+  top: 50px;
+  left: 5px;
+  right: 5px;
+  height: 650px;
+  padding-bottom: 5px;
+  max-height: 100%;
+  background: #eeeeee;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  overflow: auto; }
+  @media (max-width: 750px) {
+    .Project .Detail {
+      left: 0px;
+      top: 0px;
+      height: 400px;
+      right: 0px;
+      flex-direction: column;
+      flex-wrap: nowrap; } }
+  .Project .Detail a {
+    padding: 0;
+    width: 50%;
+    margin: 6px;
+    text-decoration: none;
+    margin-right: auto; }
+    @media (max-width: 750px) {
+      .Project .Detail a {
+        margin: 6px auto;
+        width: 96%; } }
+    .Project .Detail a p {
+      color: #000000;
+      font-size: 20px;
+      font-weight: bold;
+      opacity: 0; }
+    .Project .Detail a:hover p {
+      opacity: 1; }
+  .Project .Detail .Title {
+    width: 100%;
+    color: #eeeeee;
+    background: #222222;
+    font-weight: bold;
+    box-shadow: 2px 0px 2px 1px #222222;
+    box-sizing: border-box;
+    font-size: 34px;
+    padding: 5px; }
+  .Project .Detail .Description {
+    width: 45%;
+    margin-bottom: 5px; }
+    .Project .Detail .Description p {
+      padding: 15px; }
+    @media (max-width: 750px) {
+      .Project .Detail .Description {
+        width: 96%; } }
+  .Project .Detail .DetailImg {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 1px #222222;
+    border: 3px solid #cccccc; }
+    .Project .Detail .DetailImg:hover {
+      border: 3px solid #aadddd;
+      opacity: .75; }
+  .Project .Detail .AltContainer {
+    width: 100%;
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap; }
+    @media (max-width: 550px) {
+      .Project .Detail .AltContainer {
+        display: none; } }
+  .Project .Detail .Alt {
+    height: 350px;
+    margin: 5px;
+    width: auto;
+    box-shadow: 2px 2px 2px 1px #222222;
+    border: 2px solid #cccccc; }
+  .Project .Detail .AltLabel {
+    font-size: 20px;
+    box-shadow: 2px 0px 2px 1px #222222;
+    padding: 10px;
+    background: #dddddd;
+    width: 99%;
+    margin: 0 auto;
+    align-self: center;
+    font-weight: bold;
+    padding-top: 2px;
+    text-decoration: underline; }
+  .Project .Detail .Close {
+    height: 25px;
+    align-self: flex-end;
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #cccccc;
+    background: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: -1px 0px 2px 1px #222222;
+    box-sizing: border-box; }
+    .Project .Detail .Close:hover {
+      background: #071057;
+      color: #eeeeee; }
+
+/*# sourceMappingURL=Project.css.map */

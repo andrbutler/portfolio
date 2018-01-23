@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis|Nunito+Sans");
+/* font styles
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Dosis', sans-serif;
+*/
+.App {
+  text-align: center;
+  box-sizing: border-box; }
+
+.Header {
+  width: 100%;
+  height: 45px;
+  margin-bottom: 20px;
+  display: flex;
+  font-family: 'Nunito Sans', sans-serif;
+  background: #071057;
+  border-bottom: 3px solid #040b3a;
+  box-shadow: 0px 1px 2px 1px #09200a;
+  position: fixed;
+  top: 0px;
+  justify-content: flex-start;
+  z-index: 2;
+  box-sizing: border-box; }
+
+.Header a {
+  width: 15%;
+  text-decoration: none;
+  background: #eeeeee;
+  padding: 16px;
+  color: #000000;
+  border: 3px solid #040b3a;
+  border-bottom: none;
+  margin-left: 5px; }
+  @media (max-width: 860px) {
+    .Header a {
+      padding-left: 4px;
+      padding-right: 4px; } }
+  @media (max-width: 360px) {
+    .Header a {
+      font-size: 12px; } }
+  .Header a:hover {
+    background: #3a438a;
+    width: 16%;
+    color: #eeeeee;
+    font-weight: bold; }
+
+.Header .First {
+  width: 20%;
+  background: none;
+  padding-top: 18px;
+  padding-left: 4px;
+  border: none;
+  margin-left: 0px;
+  color: #ffffff;
+  font-size: 26px; }
+  @media (max-width: 860px) {
+    .Header .First {
+      padding-top: 22px;
+      padding-left: none;
+      font-size: 20px; } }
+  @media (max-width: 658px) {
+    .Header .First {
+      padding-top: 6px;
+      width: 25%; } }
+  .Header .First:hover {
+    background: #5c65ac;
+    width: 20%;
+    font-weight: normal; }
+    @media (max-width: 658px) {
+      .Header .First:hover {
+        width: 25%; } }
+
+.Header .Second {
+  width: 15%;
+  margin-left: auto; }
+
+.Info {
+  width: 100%;
+  box-sizing: border-box;
+  height: auto;
+  display: flex;
+  margin-top: 170px; }
+  @media (max-width: 575px) {
+    .Info {
+      margin-top: 70px;
+      flex-direction: column; } }
+
+.Skills {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 50px;
+  box-sizing: border-box; }
+  @media (max-width: 575px) {
+    .Skills {
+      flex-direction: column; } }
+
+.ProjectLabel {
+  width: 100%;
+  box-sizing: border-box;
+  background: #eeeeee;
+  border: 2px solid #222222;
+  box-shadow: 0px 1px 2px 1px #2d2251, 0px -1px 2px 1px #2d2251;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-top: 50px;
+  font-size: 36px;
+  font-weight: bold; }
+
+.Projects {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 10px;
+  box-sizing: border-box;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.Footer {
+  width: 100%;
+  height: 47px;
+  margin-top: 20px;
+  display: flex;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #ffffff;
+  background: #071057;
+  border-top: 3px solid #040b3a;
+  box-shadow: 0px -1px 2px 1px #09200a;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px; }
+  .Footer a {
+    color: #eeeeee; }
+  .Footer img {
+    width: auto;
+    height: 40px; }
+  @media (max-width: 550px) {
+    .Footer {
+      padding: 0px; }
+      .Footer img {
+        height: 30px; } }
+
+/*# sourceMappingURL=App.css.map */
