@@ -148,5 +148,9 @@
     .Project .Detail .Close:hover {
       background: #071057;
       color: #eeeeee; }
+    @media (max-width: 750px) {
+      .Project .Detail .Close {
+        font-size: 20px;
+        height: 36px; } }
 
 /*# sourceMappingURL=Project.css.map */
