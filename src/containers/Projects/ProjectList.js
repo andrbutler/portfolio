@@ -91,7 +91,7 @@ const projectList = [
         image: recipeBox
     },
     {
-        name: 'Image Serach Metadata Api',
+        name: 'Image Search Metadata Api',
         description: 'Api that returns metadata of a google image search, returns 10 results at a time. Can also return the last 10 queries',
         link: 'https://fcc-img-abstraction.herokuapp.com/',
         image: api_1
