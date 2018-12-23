@@ -14,8 +14,8 @@ import heatmapView2 from '../../images/heat_map_mobile_2.png';
 import bicycle from '../../images/scatter_plot.jpg';
 import markdown from '../../images/markdown.png';
 import markdownView from '../../images/markdown_mobile.png';
-import leaderboard from '../../images/leaderboard.png';
-import leaderboardView from '../../images/leaderboard_mobile.png';
+import gameOfLife from '../../images/game_of_life.png';
+import gameOfLifeView from '../../images/game_of_life_mobile.png';
 import wikipedia from '../../images/wikipedia_viewer.png';
 import api_1 from '../../images/api_images/api_3.jpg';
 import api_2 from '../../images/api_images/api_8.jpg';
@@ -77,11 +77,11 @@ const projectList = [
         image: markdown
     },
     {
-        name: 'Free Code Camp Leaderboard',
-        description: 'Leaderboard for Free Code Camp built with react. Shows the top 100 campers of either the last 3 months or all time.',
-        link: 'https://andrbutler.github.io/fcc_leaderboard/',
-        views: [leaderboardView],
-        image: leaderboard
+        name: 'Game of Life',
+        description: 'Implementation of Conway\'s Game of life in React',
+        link: 'https://andrbutler.github.io/game_of_life/',
+        views: [gameOfLifeView],
+        image: gameOfLife
     },
     {
         name: 'Recipe Box',
