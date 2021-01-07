@@ -7,35 +7,29 @@ const info = () => {
             <div className='Info'>
                 <div className='Bio'>
                     <h1> Hello! My name is Andrew Butler!</h1>
-                    <h2> I am a self taught developer, with a current focus on front-end
+                    <h2> I am a recently graduated developer, with a skill set that includes java programing, full stack, and frontend
                         web-development. I am always pursuing new challenges and learning 
-                        new skills. Hoping to work with people who give me the opportunity
+                        new skills, and Hope to work with people who will give me the opportunity
                         to solve problems and irrevocably change the world.
                         When I'm not coding I enjoy hiking, running, 
-                        brewing beer, drawing, cooking, and playing indie-games.
+                        brewing beer, cooking, and playing indie-games.
                     </h2>
                 </div>
                 <div className='Portrait' />
             </div>
             <div className='Skills'>
                     <ul className='Skill'><h1>Skills I'm currently proficient in:</h1>
-                    <li>html</li>
-                    <li>css</li>
+                    <li>Java</li>
+                    <li>Spring Boot</li>
+                    <li>HTML5</li>
+                    <li>CSS</li>
                     <li>React</li>
+                    <li>Vue</li>
                     <li>Node</li>
-                    <li>express</li>
+                    <li>Python</li>
                     <li>bash</li>
                     <li>linux</li>
                     <li>Photoshop</li>
-                    </ul>
-                    <ul className='Skill'><h1>I'm learning and am excited to learn:</h1>
-                    <li>React Native</li>
-                    <li>Solidity</li>
-                    <li>Sass</li>
-                    <li>Machine Learning</li>
-                    <li>Lisp</li>
-                    <li>AWS </li>
-                    <li>python</li>
                     </ul>
             </div>
         </div>

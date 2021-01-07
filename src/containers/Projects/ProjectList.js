@@ -1,7 +1,13 @@
 import recipeBox from '../../images/recipe_box.png';
 import recipeBoxView from '../../images/recipe_box_mobile.png';
-import calculator from '../../images/calculator.jpg';
-import calculatorView from '../../images/calculator_mobile.png';
+import tourism from '../../images/tourism.png';
+import tourismView from '../../images/tourism_view.png';
+import gym from '../../images/gym.png';
+import gymView1 from '../../images/gym_view1.png';
+import gymView2 from '../../images/gym_view2.png';
+import gymView3 from '../../images/gym_view3.png';
+import gymView4 from '../../images/gym_view4.png';
+import gymView5 from '../../images/gym_view5.png';
 import weather from '../../images/local_weather.jpg';
 import weatherView from '../../images/local_weather_mobile.png';
 import simon from '../../images/simon.jpg';
@@ -17,17 +23,32 @@ import markdownView from '../../images/markdown_mobile.png';
 import gameOfLife from '../../images/game_of_life.png';
 import gameOfLifeView from '../../images/game_of_life_mobile.png';
 import wikipedia from '../../images/wikipedia_viewer.png';
-import api_1 from '../../images/api_images/api_3.jpg';
-import api_2 from '../../images/api_images/api_8.jpg';
+import androidScheduler from '../../images/android_scheduler1.png';
+import androidScheduler2 from '../../images/android_scheduler2.png';
+import androidScheduler3 from '../../images/android_scheduler3.png';
 
 
 const projectList = [
     {
-        name: 'Calculator',
-        description: 'Calculator built w/ javascript and css',
-        link: 'https://andrbutler.github.io/calculator/',
-        views: [calculatorView],
-        image: calculator
+        name: 'Gym Managment Application',
+        description: 'Full stack Spring boot and Vue application, for managing members and online services of a local gym \nfrontend repo can be found at: https://github.com/andrbutler/gymFrontend \n backend Repo can be found at https://github.com/andrbutler/GymBackend',
+        link: 'https://andrbutler.github.io/gymFrontend/',
+        views: [gymView1, gymView2, gymView3, gymView4, gymView5],
+        image: gym
+    },
+    {
+        name: 'Android Class Scheduling Application',
+        description: 'Android application for managing student classes, terms, and assignments',
+        link: 'https://github.com/andrbutler/class_scheduler',
+        views: [androidScheduler2, androidScheduler3],
+        image: androidScheduler
+    },
+    {
+        name: 'Tourism Site',
+        description: 'Site that provides tourist information, for a fictional island',
+        link: 'https://andrbutler.github.io/tourism_site/',
+        views: [tourismView],
+        image: tourism
     },
     {
         name: 'Local Weather',
@@ -89,18 +110,6 @@ const projectList = [
         link: 'https://andrbutler.github.io/recipe_box/',
         views: [recipeBoxView],
         image: recipeBox
-    },
-    {
-        name: 'Image Search Metadata Api',
-        description: 'Api that returns metadata of a google image search, returns 10 results at a time. Can also return the last 10 queries',
-        link: 'https://fcc-img-abstraction.herokuapp.com/',
-        image: api_1
-    },
-    {
-        name: 'URL Shortner Api',
-        description: 'Api that returns a shortened URL for an input URL',
-        link: 'https://fccback-url-short.herokuapp.com/',
-        image: api_2
     }
 ];
 
