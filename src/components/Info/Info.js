@@ -7,8 +7,7 @@ const info = () => {
             <div className='Info'>
                 <div className='Bio'>
                     <h1> Hello! My name is Andrew Butler!</h1>
-                    <h2> I am a recently graduated developer, with a skill set that includes java programing, full stack, and frontend
-                        web-development. I am always pursuing new challenges and learning 
+                    <h2> I am a software developer, with a skill set that spans the full stack. I am always pursuing new challenges and learning 
                         new skills, and Hope to work with people who will give me the opportunity
                         to solve problems and irrevocably change the world.
                         When I'm not coding I enjoy hiking, running, 
@@ -29,7 +28,7 @@ const info = () => {
                     <li>Python</li>
                     <li>bash</li>
                     <li>linux</li>
-                    <li>Photoshop</li>
+                    <li>Elixir</li>
                     </ul>
             </div>
         </div>
